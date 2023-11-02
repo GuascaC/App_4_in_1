@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="80sp"
+        android:layout_marginEnd="80sp"
+        android:textAlignment="center"
+        android:id="@+id/tvTitleIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="44sp"
+        android:text="@string/TvTitleIMC" />
+    <TextView
+        android:layout_marginTop="230sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="80sp"
+        android:textAlignment="center"
+        android:id="@+id/tvTitleHI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/tvTitleHI" />
+    <TextView
+        android:layout_marginTop="180sp"
+        android:layout_marginStart="10sp"
+        android:textAlignment="center"
+        android:id="@+id/tvTitleIMCI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/TvTitleIMCI" />
+    <TextView
+        android:layout_marginTop="180sp"
+        android:layout_marginStart="220sp"
+        android:textAlignment="center"
+        android:id="@+id/tvTitleIMCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/TvTitleIMCM" />
+    <EditText
+        android:id="@+id/etIMCHI"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280sp"
+        android:layout_marginStart="20sp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_marginTop="340sp"
+        android:layout_marginStart="10sp"
+        android:textAlignment="center"
+        android:id="@+id/tvTitleIMCWI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/TvTitleIMCWI" />
+    <EditText
+        android:id="@+id/etIMCWI"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380sp"
+        android:layout_marginStart="20sp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnIMCI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="450sp"
+        android:layout_marginEnd="80sp"
+        android:backgroundTint="@color/green1"
+        android:text="@string/btnDate"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="230sp"
+        android:layout_marginStart="220sp"
+        android:textAlignment="center"
+        android:id="@+id/tvTitleHM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/tvTitleHM" />
+    <EditText
+        android:id="@+id/etIMCHM"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280sp"
+        android:layout_marginStart="220sp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_marginTop="340sp"
+        android:layout_marginStart="220sp"
+        android:textAlignment="center"
+        android:id="@+id/TvTitleIMCWM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/TvTitleIMCWM" />
+    <EditText
+        android:id="@+id/etIMCWM"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380sp"
+        android:layout_marginStart="220sp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnIMCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="450sp"
+        android:backgroundTint="@color/green1"
+        android:text="@string/btnDate"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="520sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginEnd="50sp"
+        android:textAlignment="center"
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="38sp" />
+    <Button
+        android:layout_marginTop="650sp"
+        android:layout_marginStart="80sp"
+        android:layout_marginEnd="80sp"
+        android:id="@+id/btnHome"
+        android:backgroundTint="@color/green1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBack" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Cristian Guasca"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

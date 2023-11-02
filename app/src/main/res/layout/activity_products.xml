@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/IvCat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Main">
+
+    <TextView
+        android:id="@+id/TvWelcome"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue1"
+        android:textAlignment="center"
+        android:textSize="44sp"
+        android:padding="2dp"
+        android:text="@string/TvWelcome" />
+
+        <CheckBox
+            android:id="@+id/rbApple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/rbApple" />
+
+    <CheckBox
+            android:id="@+id/rbPear"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbPear" />
+    <CheckBox
+            android:id="@+id/rbPineapple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/rbPineapple" />
+
+    <CheckBox
+            android:id="@+id/rbBanana"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbBanana" />
+    <CheckBox
+            android:id="@+id/rbGrape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/rbGrape" />
+
+    <CheckBox
+            android:id="@+id/rbPeach"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbPeach" />
+    <Button
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="80sp"
+        android:layout_marginEnd="80sp"
+        android:id="@+id/btnBuy"
+        android:backgroundTint="@color/green1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBuy" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Cristian Guasca"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

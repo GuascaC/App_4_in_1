@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/IvCat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Main">
+
+    <TextView
+        android:id="@+id/TvWelcome"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue1"
+        android:textAlignment="center"
+        android:textSize="44sp"
+        android:padding="2dp"
+        android:text="@string/TvWelcome" />
+
+    <Button
+        android:id="@+id/btnAge"
+        android:backgroundTint="@color/green1"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAge" />
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBuy" />
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTest" />
+    <Button
+        android:id="@+id/btnIMC"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnIMC" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Cristian Guasca"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

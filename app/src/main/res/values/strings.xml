@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <!-- Main-->
+    <string name="TvWelcome">Welcome please select an option</string>
+    <string name="btnAge">Calculate your age</string>
+    <string name="btnBuy">Buy</string>
+    <string name="btnTest">Test</string>
+    <string name="btnIMC">Calculate your IMC</string>
+    <string name="btnBack">Home</string>
+    <!-- Age-->
+    <string name="TvTitleAge">Input a date</string>
+    <string name="btnDate">Calculate</string>
+    <string name="TvResultAge">Age</string>
+    <!-- Buy-->
+    <string name="TvTitleBuy">Costumer Register</string>
+    <string name="etName">Names</string>
+    <string name="etLast">Last names</string>
+    <string name="etAddress">Address</string>
+    <string name="btnRegister">Register</string>
+    <!-- Buy-->
+    <string name="rbApple">Apple</string>
+    <string name="rbPear">Pear</string>
+    <string name="rbPineapple">Pineapple</string>
+    <string name="rbGrape">Grape</string>
+    <string name="rbBanana">Banana</string>
+    <string name="rbPeach">Peach</string>
+    <string name="TvBill">Bill</string>
+    <!-- Buy-->
+    <string name="TvTest1">Whats the capital city of Canada</string>
+    <string name="TvTest2">Whats the capital city of Colombia</string>
+    <string name="TvTest3">Whats the capital city of USA</string>
+    <string name="TvTest4">Whats the capital city of Venezuela</string>
+    <string name="TvTest5">Whats the capital city of Mexico</string>
+    <string name="TvTest6">Whats the capital city of Argentina</string>
+    <string name="btnSend">Send</string>
+    <!-- Test-->
+    <string name="rbTest1A">Otawa</string>
+    <string name="rbTest1B">Toronto</string>
+    <string name="rbTest1C">Vancouver</string>
+    <string name="rbTest2A">Medellin</string>
+    <string name="rbTest2B">Bogota</string>
+    <string name="rbTest2C">Cali</string>
+    <string name="rbTest3A">New York</string>
+    <string name="rbTest3B">Texas</string>
+    <string name="rbTest3C">Washington</string>
+    <string name="rbTest4A">Caracas</string>
+    <string name="rbTest4B">Valencia</string>
+    <string name="rbTest4C">Maracay</string>
+    <string name="rbTest5A">Guadalajara</string>
+    <string name="rbTest5B">CDMX</string>
+    <string name="rbTest5C">Cancún</string>
+    <string name="rbTest6A">La Plata</string>
+    <string name="rbTest6B">Rosario</string>
+    <string name="rbTest6C">Buenos Aires</string>
+    <!-- IMC -->
+    <string name="TvTitleIMC">Calculate your IMC</string>
+    <string name="TvTitleIMCI">English System</string>
+    <string name="TvTitleIMCM">Metric System</string>
+    <string name="tvTitleHI">Height(Inches)</string>
+    <string name="tvTitleHM">Height(cm)</string>
+    <string name="TvTitleIMCWI">Weight(Pounds)</string>
+    <string name="TvTitleIMCWM">Weight(kg)</string>
+
+
+</resources>

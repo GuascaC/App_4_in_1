@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/IvCat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Main">
+
+    <TextView
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="150sp"
+        android:textAlignment="center"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="44sp"
+        android:text="@string/btnTest" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginStart="25sp"
+        android:textColor="@color/blue1"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="80sp"
+        android:layout_marginEnd="80sp"
+        android:id="@+id/btnHome"
+        android:backgroundTint="@color/green1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBack" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Cristian Guasca"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
