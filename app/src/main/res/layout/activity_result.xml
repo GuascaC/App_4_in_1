@@ -5,75 +5,87 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#F3F3F3"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_marginTop="80sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
-        android:textAlignment="center"
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="44sp"
-        android:text="@string/TvTitleBuy" />
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="36sp"
+        android:text="@string/TvTitleBuy"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:textAllCaps="true"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp" />
 
     <EditText
-        android:layout_marginTop="40sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
-        android:textAlignment="center"
         android:id="@+id/etName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/etName"
-        android:textSize="24sp"
-        android:inputType="text"
-        android:minHeight="48dp" />
-    <EditText
-        android:layout_marginTop="40sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
-        android:textAlignment="center"
-        android:id="@+id/etLast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/etLast"
-        android:textSize="24sp"
-        android:inputType="text"
-        android:minHeight="48dp" />
-    <EditText
-        android:layout_marginTop="40sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
-        android:textAlignment="center"
-        android:id="@+id/etAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/etAddress"
-        android:textSize="24sp"
-        android:inputType="text"
-        android:minHeight="48dp" />
-
-    <Button
-        android:layout_marginTop="20sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
-        android:id="@+id/btnRegister"
-        android:backgroundTint="@color/green1"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnRegister" />
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:hint="@string/etName"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="#E8E8E8"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <EditText
+        android:id="@+id/etLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:hint="@string/etLast"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="#E8E8E8"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:hint="@string/etAddress"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="#E8E8E8"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        android:text="@string/btnRegister"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:letterSpacing="0.05"
+        android:padding="12dp"
+        android:elevation="4dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Developed by Cristian Guasca"
+        android:text="@string/tvDevelop"
         android:textSize="14sp"
         android:textColor="#777777"
         android:layout_gravity="center"
         android:layout_marginTop="20dp" />
+
 </LinearLayout>

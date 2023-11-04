@@ -5,23 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#F5F5F5"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_marginTop="80sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
         android:textAlignment="center"
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="44sp"
-        android:text="@string/TvTitleAge" />
+        android:textSize="48sp"
+        android:text="@string/TvTitleAge"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
 
     <EditText
-        android:layout_marginTop="40sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
         android:textAlignment="center"
         android:id="@+id/etDate"
         android:layout_width="wrap_content"
@@ -32,54 +36,56 @@
         android:hint="dd/MM/yyyy"
         android:minHeight="48dp"
         android:focusable="false"
-        android:clickable="true" />
-
+        android:clickable="true"
+        android:textColor="#000000"
+        />
 
     <Button
-        android:layout_marginTop="20sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
         android:id="@+id/btnCalculate"
-        android:backgroundTint="@color/green1"
+        android:backgroundTint="#4CAF50"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnDate" />
+        android:text="@string/btnDate"
+        android:textColor="#FFFFFF"
+        />
+
     <TextView
-        android:layout_marginTop="50sp"
-        android:layout_marginBottom="50sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
         android:textAlignment="center"
         android:id="@+id/tvDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="44sp"
+        android:textSize="48sp"
+        android:textColor="#000000"
         />
+
     <Button
-        android:layout_marginTop="20sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
         android:id="@+id/btnHome"
-        android:backgroundTint="@color/green1"
+        android:backgroundTint="#4CAF50"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnBack" />
+        android:text="@string/btnBack"
+        android:textColor="#FFFFFF"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Developed by Cristian Guasca"
+        android:text="@string/tvDevelop"
         android:textSize="14sp"
         android:textColor="#777777"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Developed by Cristian Guasca"
-        android:textSize="14sp"
-        android:textColor="#777777"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        />
 </LinearLayout>

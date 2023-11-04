@@ -7,6 +7,7 @@
     <string name="btnTest">Test</string>
     <string name="btnIMC">Calculate your IMC</string>
     <string name="btnBack">Home</string>
+    <string name="tvDevelop">Developed by Cristian Guasca</string>
     <!-- Age-->
     <string name="TvTitleAge">Input a date</string>
     <string name="btnDate">Calculate</string>
@@ -18,12 +19,12 @@
     <string name="etAddress">Address</string>
     <string name="btnRegister">Register</string>
     <!-- Buy-->
-    <string name="rbApple">Apple</string>
-    <string name="rbPear">Pear</string>
-    <string name="rbPineapple">Pineapple</string>
-    <string name="rbGrape">Grape</string>
-    <string name="rbBanana">Banana</string>
-    <string name="rbPeach">Peach</string>
+    <string name="rbApple">Apple(100)</string>
+    <string name="rbPear">Pear(200)</string>
+    <string name="rbPineapple">Pineapple(500)</string>
+    <string name="rbGrape">Grape(1000)</string>
+    <string name="rbBanana">Banana(2000)</string>
+    <string name="rbPeach">Peach(5000)</string>
     <string name="TvBill">Bill</string>
     <!-- Buy-->
     <string name="TvTest1">Whats the capital city of Canada</string>

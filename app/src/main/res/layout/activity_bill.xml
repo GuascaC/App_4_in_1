@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="15dp"
+    android:background="#FFFFFF"
     tools:context=".Main">
 
     <TextView
@@ -15,43 +16,54 @@
         android:layout_marginBottom="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/blue1"
+        android:textColor="#000000"
         android:textAlignment="center"
         android:textSize="44sp"
         android:padding="2dp"
-        android:text="@string/TvBill" />
+        android:text="@string/TvBill"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        />
 
     <TextView
         android:id="@+id/data"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:padding="2dp"
+        android:padding="16dp"
         android:text="TextView"
         android:textAlignment="center"
-        android:layout_marginTop="20sp"
-        android:layout_marginEnd="25sp"
-        android:layout_marginStart="25sp"
-        android:textColor="@color/blue1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="#333333"
         android:textSize="24sp"
+        android:background="#ECECEC"
         />
 
     <Button
-        android:layout_marginTop="20sp"
-        android:layout_marginStart="80sp"
-        android:layout_marginEnd="80sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
         android:id="@+id/btnHome"
-        android:backgroundTint="@color/green1"
+        android:backgroundTint="#4CAF50"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnBack" />
+        android:text="@string/btnBack"
+        android:textColor="#FFFFFF"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Developed by Cristian Guasca"
+        android:text="@string/tvDevelop"
         android:textSize="14sp"
         android:textColor="#777777"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        />
 
 </LinearLayout>

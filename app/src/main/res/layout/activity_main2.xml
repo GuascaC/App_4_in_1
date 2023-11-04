@@ -6,59 +6,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="15dp"
+    android:padding="16dp"
+    android:background="#F7F7F7"
     tools:context=".Main">
 
     <TextView
         android:id="@+id/TvWelcome"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="80dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/blue1"
+        android:textColor="#3498DB"
         android:textAlignment="center"
-        android:textSize="44sp"
-        android:padding="2dp"
-        android:text="@string/TvWelcome" />
+        android:textSize="36sp"
+        android:padding="8dp"
+        android:text="@string/TvWelcome"
+        android:textStyle="bold"
+        />
 
     <Button
         android:id="@+id/btnAge"
-        android:backgroundTint="@color/green1"
-        android:layout_marginTop="20dp"
-        android:textSize="20sp"
+        android:backgroundTint="#27AE60"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnAge" />
+        android:text="@string/btnAge"
+        android:textColor="#FFFFFF"
+        />
+
     <Button
         android:id="@+id/btnBuy"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/green1"
-        android:textSize="20sp"
+        android:backgroundTint="#27AE60"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnBuy" />
+        android:text="@string/btnBuy"
+        android:textColor="#FFFFFF"
+        />
+
     <Button
         android:id="@+id/btnTest"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/green1"
-        android:textSize="20sp"
+        android:backgroundTint="#27AE60"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnTest" />
+        android:text="@string/btnTest"
+        android:textColor="#FFFFFF"
+        />
+
     <Button
         android:id="@+id/btnIMC"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/green1"
-        android:textSize="20sp"
+        android:backgroundTint="#27AE60"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnIMC" />
+        android:text="@string/btnIMC"
+        android:textColor="#FFFFFF"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Developed by Cristian Guasca"
+        android:text="@string/tvDevelop"
         android:textSize="14sp"
         android:textColor="#777777"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        />
 </LinearLayout>
